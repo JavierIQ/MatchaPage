@@ -499,3 +499,302 @@ button:hover{
 li{
     list-style-type: none;
 }
+
+
+@media (max-width: 575px) {
+
+    .item-SignIn,
+    .item-navbar {
+      display: none;
+    }
+
+    .container-logo > a > img {
+        width: 200px;
+    }
+    
+    header{
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .features{
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .item-ecommerce>h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .item-shopify{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .item-shopify > button{
+        width: 100%;
+    }
+
+    .item-video{
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+
+    .item-video > img{
+        width: 300px;
+    }
+
+    .items-brands{
+        display: flex;
+        flex-direction: column;
+    }
+    .items-brands >li{
+        margin: 10px;
+        list-style-type: none;
+    }
+
+    .container-features{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-top-features{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center
+    }
+
+    .title-top-features > h1{
+        font-size: 30px;
+    }
+
+    .container-Top-features{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature1>img{
+        width: 100%;
+    }
+
+    .feature2>img{
+        width: 100%;
+    }
+    
+    .feature3>img{
+        width: 100%;
+    }
+    
+    
+    .text-feature{
+        margin: 10px 10px 10px 10px;
+        padding: 5px 20px 5px 20px;
+        color: #707070;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+    }
+    
+    .title-feature{
+        margin-top: 20px;
+        color: #343434;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .title-tools{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container-tools{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .container-testimonials{
+        margin-top: 60px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .item-text-testimonials > h1 {
+        color: #025157;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    
+    .item-text-testimonials > p {
+        color:#4A4A4A;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .item-text-testimonials > button {
+        background-color: #025157;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 10px;
+        font-family: sans-serif;
+        padding: 15px 30px 15px 30px;
+    }
+
+    .item-testimonials>img{
+        width: 100%;
+    }
+
+    .container-table{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-table>h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container-fourblocks{
+        margin: 1px 1px 1px 1px;
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-fourblocks > img{
+        width: 100%;
+    }
+
+    .item-block{
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .item-block>img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .container-startfree{
+        background-color: #025157;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 20px 50px 20px;
+        border-radius: 10px;
+        margin: 80px 2px 20px 2px;
+    }
+    
+    .container-startfree>div>h1{
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .container-startfree>div>p{
+        color: #ffffff;
+        font-family: serif;
+        font-size: 18px;
+    }
+    
+    .container-startfree>div>p>a{
+        color: #3D8F50;
+        font-family: serif;
+        font-size: 18px;
+        text-decoration: none; 
+        text-decoration: underline; 
+    }
+    
+    .container-startfree>div>button{
+        background-color: #67B54B;
+        padding: 15px 25px 15px 25px;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #textFrialtrial{
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-footerInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 2px 20px 2px;
+    }
+
+    .container-footerInfo > div > ul > li{
+        font-size: 15px;
+        margin: 10px 0px 10px 0px;
+        color: #4A4A4A;
+        font-family: sans-serif;
+    }
+
+    .item-footer-text{
+        font-size: 15px;
+        font-family: sans-serif;
+        margin: 28px 5px 28px 5px;
+    }
+
+    .item-footer-title{
+        margin-top: 80px;
+    }
+
+    .container-social{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-social-media{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-social-media>img,svg{
+        margin: 5px;
+    }
+
+    .container-social>div>p{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+  }

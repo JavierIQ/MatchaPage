@@ -6,8 +6,23 @@ ul {
     list-style-type: none;
 }
 
+.btnFooter{
+    background-color: #025157;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+}
+
+
+.card{
+    height: 350px;
+}
+.container-integrations{
+    margin: 120px 5px;
+}
+
 .card-marketing{
     padding: 20px 50px;
+    width: 100%;
 }
 
 .item-matcha-circle{
@@ -27,7 +42,7 @@ ul {
 }
 
 .container-getStarted{
-    margin: 10px;
+    margin: 120px 5px;
     padding: 60px;
     border-radius: 10px;
     background-color: #025157;
